@@ -1,1 +1,21 @@
-
+~/cli-basics-assignment-Mukstin-1$ pwd
+/home/runner/cli-basics-assignment-Mukstin-1
+~/cli-basics-assignment-Mukstin-1$ mkdir CLIBasicsFolder
+~/cli-basics-assignment-Mukstin-1$ ls
+CLIBasicsFolder  README.md  TerminalSession.txt
+~/cli-basics-assignment-Mukstin-1$ cd CLIBasicsFolder
+~/cli-basics-assignment-Mukstin-1/CLIBasicsFolder$ touch myfile.txt
+~/cli-basics-assignment-Mukstin-1/CLIBasicsFolder$ echo Justin ICS4U1b >> myfile.txt
+~/cli-basics-assignment-Mukstin-1/CLIBasicsFolder$ cat myfile.txt 
+Justin ICS4U1b
+~/cli-basics-assignment-Mukstin-1/CLIBasicsFolder$ cp myfile.txt myfile_copy.txt 
+~/cli-basics-assignment-Mukstin-1/CLIBasicsFolder$ ls
+myfile_copy.txt  myfile.txt
+~/cli-basics-assignment-Mukstin-1/CLIBasicsFolder$ mv myfile_copy.txt myfile2.txt
+~/cli-basics-assignment-Mukstin-1/CLIBasicsFolder$ mv myfile2.txt ~ 
+~/cli-basics-assignment-Mukstin-1/CLIBasicsFolder$ ls ~ 
+cli-basics-assignment-Mukstin-1  myfile2.txt  _test_runner.py
+~/cli-basics-assignment-Mukstin-1/CLIBasicsFolder$ cd ..
+~/cli-basics-assignment-Mukstin-1$ rm /home/runner/cli-basics-assignment-Mukstin-1/CLIBasicsFolder/myfile.txt
+~/cli-basics-assignment-Mukstin-1$ ls ~
+cli-basics-assignment-Mukstin-1  myfile2.txt  _test_runner.py
